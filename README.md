@@ -27,16 +27,27 @@ This project leverages **OpenCV**, **MediaPipe**, **YOLOv3**, and **Streamlit** 
 activity-detection-app/
 │
 ├── Main.py # Main page with intro and animation
+
 ├── Feature.py # Webcam feed module
+
 ├── Object_Detection.py # YOLO-based object detection
+
 ├── Pose_Detection.py # Real-time pose tracking
+
 ├── Face_Mesh.py # Face mesh using MediaPipe
+
 ├── Intrusion_Detection.py # Human presence alert system
+
 ├── yolo/ # Contains YOLOv3 weights, cfg, and coco.names
+
 │ ├── yolov3.weights
+
 │ ├── yolov3.cfg
+
 │ └── coco.names
+
 ├── requirements.txt
+
 └── README.md
 
 ---
@@ -55,12 +66,19 @@ pip install -r requirements.txt
 requirements.txt includes:
 
 matplotlib==3.6.2
+
 mediapipe==0.9.0
+
 numpy==1.23.5
+
 opencv_python==4.6.0.66
+
 Pillow==9.3.0
+
 requests==2.28.1
+
 streamlit==1.15.1
+
 streamlit_lottie==0.0.3
 
 
@@ -76,10 +94,15 @@ Once the server starts, your default browser will open the app interface.
 1. Launch the app using the command above.
 2. The Main Page shows animated introductions and project info.
 3. Use the sidebar or navigation (depending on layout) to access:
+
     Webcam Feed: Live camera view.
+
     Object Detection: Detect real-world items.
+
     Pose Detection: See your body landmarks mapped.
+
     Face Mesh: Explore MediaPipe's advanced facial tracking.
+
     Intrusion Detection: Simulate security alert mechanisms.
 
 
